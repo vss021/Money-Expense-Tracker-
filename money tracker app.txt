@@ -1,0 +1,91 @@
+money tracker app
+
+=> BACKEND ###################################################################################################
+
+npm init
+
+npm install express mongoose cors nodemon
+
+npm install dotenv
+
+<app.js>
+
+
+package.json -> test changes to start:'nodeman app.js' -> to set the entry point 
+
+npm start
+
+<.env>
+
+<db.js> - backend/db
+
+<transactions.js> - backend/routes
+<income.js> - backend/controllers
+<incomeMoel.js> - backend/models
+
+
+
+mongoDB - MoneyTrackerApp > username = xxxxxxxxx / password = xxxxxxx 
+
+
+
+addIncome/getIncome/deleteIncome OPS-> checked > income.js / incomeModel.js > router/http-protocol - transactions.js
+
+
+<expense.js> - backend/controllers
+
+
+=> FRONTEND ###################################################################################################
+
+installation of React for frontend 
+
+npm install -g npm
+npx create-react-app frontend (react app created in frontend folder)
+cd frontend
+npm start
+
+
+get rid of unwanted files - keep app.js & index.js & modify them 
+
+installation of required libraries -> npm install axios chart.js moment react-chartjs-2 react-datepicker styled-components
+
+creating sub-folders in "src" -
+
+Components 
+utils
+context
+styles
+
+
+styles - GlobalSyle.js & Layouts.js defined for background image / modify the app.js & index.js accordingly
+
+components -> Orb -> Orb.js
+
+utils -> useWindowSize.js = to give an background effect 
+
+components -> Navigation -> Navigation.js 
+
+utils -> menuItems.js -> helps in Navigation.js 
+
+utils -> Icons.js -> helps in menuItems.js - font-awesome-cdn website used write Icons.js & font awesome to find icon
+
+navigation.js contained styles (.css) for 'menuItems' - use for to go into the section (i.e. dashboard or income or expense or sign out)
+
+focus on <main/> after menuItems 
+
+displayData -> focuses on displaying the content in right hand side div as per the 'menuItems' sections
+
+create the components - dashboard.js / income.js / expense.js
+
+globalContext - provide the javascript functionalities
+
+components -> form.js
+
+after creating the layout  for "income" create button.js
+
+
+
+
+
+
+
